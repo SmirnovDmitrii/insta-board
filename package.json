@@ -1,0 +1,28 @@
+{
+  "name": "insta-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmirnovDmitrii/insta-board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmirnovDmitrii/insta-board/issues"
+  },
+  "homepage": "https://github.com/SmirnovDmitrii/insta-board#readme",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
